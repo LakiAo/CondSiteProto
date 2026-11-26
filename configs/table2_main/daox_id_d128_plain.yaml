@@ -1,0 +1,25 @@
+experiment: table2_daox_id_d128_plain
+dataset: daox
+backbone: mlp
+training_mode: joint
+arm: plain
+encoding: id
+hidden_dim: 128
+slots: [0, 0]
+split_file: data/splits/daox_assignments.csv
+double_budget: 0
+seeds: [42, 2026, 3407, 6767, 9178]
+scaling: native
+val_selection: val_single_macro_mse
+expected_parameters: 417926
+dropout: 0.2
+prototype_temperature: 0.25
+diversity_weight: 0.001
+epochs: 150
+batch_size: 32
+learning_rate: 0.0006
+weight_decay: 0.0001
+patience: 20
+gradient_clip: 5.0
+shared_head_weight: 0.5
+cpu_threads: 4

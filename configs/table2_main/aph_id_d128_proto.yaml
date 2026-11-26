@@ -1,0 +1,25 @@
+experiment: table2_aph_id_d128_proto
+dataset: aph
+backbone: mlp
+training_mode: joint
+arm: proto
+encoding: id
+hidden_dim: 128
+slots: [6, 8]
+split_file: data/splits/aph_assignments.csv
+double_budget: 0
+seeds: [42, 2026, 3407, 6767, 9178]
+scaling: train_fold_zscore
+val_selection: val_standardized_macro_mse
+expected_parameters: 440236
+dropout: 0.2
+batch_size: 32
+epochs: 150
+learning_rate: 0.0006
+weight_decay: 0.0001
+patience: 20
+min_delta: 0.0
+gradient_clip: 5.0
+alpha_shared: 0.5
+cpu_threads: 4
+deterministic: true

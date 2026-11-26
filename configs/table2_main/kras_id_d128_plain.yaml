@@ -1,0 +1,21 @@
+experiment: table2_kras_id_d128_plain
+dataset: kras
+backbone: mlp
+training_mode: joint
+arm: plain
+encoding: id
+hidden_dim: 128
+slots:
+- 0
+- 0
+split_file: data/splits/kras_block1.json
+double_budget: 20
+seeds:
+- 42
+- 2026
+- 3407
+- 6767
+- 9178
+scaling: native
+val_selection: val_single_macro_mse
+expected_parameters: 426375

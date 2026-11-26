@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+/cache/
+/runs/
+/smoke-runs/
+*.pt
+*.pth
+*.ckpt

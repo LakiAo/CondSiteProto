@@ -1,0 +1,25 @@
+experiment: table2_nora_id_d128_proto
+dataset: nora
+backbone: mlp
+training_mode: joint
+arm: proto
+encoding: id
+hidden_dim: 128
+slots: [6, 8]
+split_file: data/splits/nora_assignments.csv
+double_budget: 0
+seeds: [42, 2026, 3407, 6767, 9178]
+scaling: fold_zscore
+val_selection: specific_val_macro_mse_z
+dropout: 0.2
+prototype_temperature: 0.25
+diversity_weight: 0.001
+epochs: 150
+batch_size: 32
+learning_rate: 0.0006
+weight_decay: 0.0001
+patience: 20
+gradient_clip: 5.0
+shared_head_weight: 0.5
+cpu_threads: 4
+expected_parameters: 479184

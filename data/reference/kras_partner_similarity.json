@@ -1,0 +1,93 @@
+{
+  "order": [
+    "RAF1RBD",
+    "PIK3CGRBD",
+    "RALGDSRBD",
+    "SOS1",
+    "K27",
+    "K55"
+  ],
+  "features": [
+    [
+      0.618917328606987,
+      0.329576826717171,
+      0.3664587875806936,
+      0.3649741270512956,
+      0.3454670465766199,
+      0.3485323786374675
+    ],
+    [
+      0.32963683035749236,
+      0.6190300103545004,
+      0.3746912271399819,
+      0.4096897369583879,
+      0.3164051942093288,
+      0.3158954940562326
+    ],
+    [
+      0.3543401400406337,
+      0.3622343867081178,
+      0.598449976708182,
+      0.39665837094749334,
+      0.3359680620655217,
+      0.33893146453136025
+    ],
+    [
+      0.348644960951991,
+      0.391288727995798,
+      0.3918706398294054,
+      0.5912265880544632,
+      0.33537007628892723,
+      0.331293310667971
+    ],
+    [
+      0.31467061520151546,
+      0.2881470016266564,
+      0.31648442651619524,
+      0.31978092730016544,
+      0.5637443527003525,
+      0.5456407064071458
+    ],
+    [
+      0.31733555997576524,
+      0.287567618147413,
+      0.3191481173662515,
+      0.3157671617393461,
+      0.5454222005418122,
+      0.5635185970956711
+    ]
+  ],
+  "method": "Mean of cosine similarities of monopeptide and dipeptide counts, then L2 row normalization.",
+  "constructs": {
+    "RAF1RBD": {
+      "source": "https://www.uniprot.org/uniprotkb/P04049/entry",
+      "length": 76,
+      "sequence_sha256": "c3431bf98362c32e71f3469b2db4fcedba02fbee0e66b0fdfec481d6943d6705"
+    },
+    "PIK3CGRBD": {
+      "source": "https://www.uniprot.org/uniprotkb/P48736/entry",
+      "length": 110,
+      "sequence_sha256": "cade8ba9fab0a1aa9554c4115810da051f952608f2009e6dd53f8bef2b8d2c85"
+    },
+    "RALGDSRBD": {
+      "source": "https://www.uniprot.org/uniprotkb/Q12967/entry",
+      "length": 86,
+      "sequence_sha256": "5940517f212cb7195095d955099f8b59894a0835e3fde00f8192e0f6ed73485b"
+    },
+    "SOS1": {
+      "source": "https://www.uniprot.org/uniprotkb/Q07889/entry",
+      "length": 486,
+      "sequence_sha256": "0e49f0ac9715d44bd35fcd3dc22655f5e34eda3c2eb9152deafa6028275b968c"
+    },
+    "K27": {
+      "source": "https://www.rcsb.org/structure/5O2S",
+      "length": 156,
+      "sequence_sha256": "087839337ef1a00c0e220c87dfafbf98fd469d174e87958d302dd2a5b3c0542f"
+    },
+    "K55": {
+      "source": "https://www.rcsb.org/structure/5O2T",
+      "length": 156,
+      "sequence_sha256": "c1635f23a8fd30a4eaeb5310da4c01c64bafd76b4435120b7ffba923d3f6d287"
+    }
+  }
+}

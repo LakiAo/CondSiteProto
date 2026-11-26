@@ -1,0 +1,21 @@
+dataset,condition,compound,cid,formal_charge,canonical_isomeric_smiles,source
+ramr,S_THIQ,(1S)-THIQ,,1,c1ccc([C@@H]2[NH2+]CCc3ccccc32)cc1,https://doi.org/10.1038/s41589-026-02275-1
+ramr,R_THIQ,(1R)-THIQ,,1,c1ccc([C@H]2[NH2+]CCc3ccccc32)cc1,https://doi.org/10.1038/s41589-026-02275-1
+ramr,DHIQ,DHIQ,,0,c1ccc(C2=NCCc3ccccc32)cc1,https://doi.org/10.1038/s41589-026-02275-1
+nora,acr,acriflavine,443101,1,C[n+]1c2cc(N)ccc2cc2ccc(N)cc21.Nc1ccc2cc3ccc(N)cc3nc2c1,https://pubchem.ncbi.nlm.nih.gov/compound/443101
+nora,eth,ethidium,3624,1,CC[n+]1c(-c2ccccc2)c2cc(N)ccc2c2ccc(N)cc21,https://pubchem.ncbi.nlm.nih.gov/compound/3624
+nora,nor,norfloxacin,4539,0,CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CCNCC3)cc21,https://pubchem.ncbi.nlm.nih.gov/compound/4539
+nora,ofl,ofloxacin,4583,0,CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23,https://pubchem.ncbi.nlm.nih.gov/compound/4583
+nora,pen,pentamidine,4735,0,N=C(N)c1ccc(OCCCCCOc2ccc(C(=N)N)cc2)cc1,https://pubchem.ncbi.nlm.nih.gov/compound/4735
+nora,ppa,pipemidic acid,4831,0,CCn1cc(C(=O)O)c(=O)c2cnc(N3CCNCC3)nc21,https://pubchem.ncbi.nlm.nih.gov/compound/4831
+nora,pur,puromycin,439530,0,COc1ccc(C[C@H](N)C(=O)N[C@H]2[C@@H](O)[C@H](n3cnc4c(N(C)C)ncnc43)O[C@@H]2CO)cc1,https://pubchem.ncbi.nlm.nih.gov/compound/439530
+nora,tpp,tetraphenylphosphonium,164912,1,c1ccc([P+](c2ccccc2)(c2ccccc2)c2ccccc2)cc1,https://pubchem.ncbi.nlm.nih.gov/compound/164912
+aph,Kan,Kanamycin A,6032,0,NC[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](N)[C@H]3O)[C@H](N)C[C@@H]2N)[C@H](O)[C@@H](O)[C@@H]1O,https://pubchem.ncbi.nlm.nih.gov/compound/6032
+aph,Neo,Neomycin B,8378,0,NC[C@@H]1O[C@H](O[C@H]2[C@@H](O)[C@H](O[C@@H]3[C@@H](O)[C@H](N)C[C@H](N)[C@H]3O[C@H]3O[C@H](CN)[C@@H](O)[C@H](O)[C@H]3N)O[C@@H]2CO)[C@H](N)[C@@H](O)[C@@H]1O,https://pubchem.ncbi.nlm.nih.gov/compound/8378
+aph,Paro,Paromomycin,165580,0,NC[C@@H]1O[C@H](O[C@H]2[C@@H](O)[C@H](O[C@@H]3[C@@H](O)[C@H](N)C[C@H](N)[C@H]3O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3N)O[C@@H]2CO)[C@H](N)[C@@H](O)[C@@H]1O,https://pubchem.ncbi.nlm.nih.gov/compound/165580
+aph,Ribo,Ribostamycin,33042,0,NC[C@H]1O[C@H](O[C@H]2[C@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O)[C@@H](O)[C@H](N)C[C@@H]2N)[C@H](N)[C@@H](O)[C@@H]1O,https://pubchem.ncbi.nlm.nih.gov/compound/33042
+daox,D-Ala,D-Ala,71080,0,C[C@@H](N)C(=O)O,https://pubchem.ncbi.nlm.nih.gov/compound/71080
+daox,D-Phe,D-Phe,71567,0,N[C@H](Cc1ccccc1)C(=O)O,https://pubchem.ncbi.nlm.nih.gov/compound/71567
+daox,D-Met,D-Met,84815,0,CSCC[C@@H](N)C(=O)O,https://pubchem.ncbi.nlm.nih.gov/compound/84815
+daox,D-Asn,D-Asn,439600,0,NC(=O)C[C@@H](N)C(=O)O,https://pubchem.ncbi.nlm.nih.gov/compound/439600
+daox,D-Gln,D-Gln,145815,0,NC(=O)CC[C@@H](N)C(=O)O,https://pubchem.ncbi.nlm.nih.gov/compound/145815
